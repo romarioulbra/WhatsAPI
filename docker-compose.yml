@@ -63,8 +63,10 @@ services:
 
       - CONFIG_SESSION_PHONE_CLIENT='CodeChat'
       - CONFIG_SESSION_PHONE_NAME='Chrome'
+      - CONFIG_SESSION_PHONE_PLATFORM="android"
 
-      - QRCODE_LIMIT=6
+
+      - QRCODE_LIMIT=8
 
       - AUTHENTICATION_TYPE=apikey
       - AUTHENTICATION_API_KEY=t8OOEeISKzpmc3jjcMqBWYSaJsafdefer
